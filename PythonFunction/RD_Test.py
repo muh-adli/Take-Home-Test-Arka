@@ -1,5 +1,5 @@
 import unittest
-from RemoveDuplicate import remove_duplicates
+from .RemoveDuplicate import remove_duplicates
 
 class TestRemoveDuplicates(unittest.TestCase):
 
