@@ -31,9 +31,11 @@ pip install -r requirements.txt
 
 wait for some time because without a dependencies the program might found some trouble
 
-### Answer to number 1
+### Answer to Inventory API
 
 
 
-### Answer to number 2
+### Answer to Python Function
+
+
 
