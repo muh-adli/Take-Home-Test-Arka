@@ -41,10 +41,10 @@ class inventoryRest(viewsets.ModelViewSet):
 
 def inventoryXml(request):
     start = datetime.now()
-    products = Product.objects.all()
+    products_qs = Product.objects.all()
 
     root = Element('products')
-    for product in products:
+    for product in products_qs:
         product_element = SubElement(root, 'product')
         SubElement(product_element, 'product_id').text = str(product.product_id)
         SubElement(product_element, 'product_name').text = product.product_name
