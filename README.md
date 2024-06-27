@@ -31,11 +31,19 @@ pip install -r requirements.txt
 
 wait for some time because without a dependencies the program might found some trouble
 
-### Answer to Inventory API
+### Inventory API
 
 
 
-### Answer to Python Function
+### Python Function
 
+for the Python Function you could see RemoveDuplicate.py for the function.
 
+for the unit test you could run the RD_Test.py, or alternatively use this command under PythonFunction folder
+
+```powershell
+cd PythonFunction
+
+python -m unittest RD_Test.py
+```
 
